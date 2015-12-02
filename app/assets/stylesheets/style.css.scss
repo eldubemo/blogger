@@ -1,10 +1,10 @@
-$primary_color: #AAA;
+$primary_color: whitesmoke;
 
 body {
   background-color: $primary_color;
   font: {
-    family: Verdana, Helvetica, Arial;
-    size: 14px;
+    family: Helvetica, Arial;
+    size: 100%;
   }
 }
 
@@ -22,15 +22,19 @@ a {
 }
 
 #container {
-  width: 75%;
+  max-width: 720px;
   margin: 0 auto;
-  background: #fff;
   padding: 20px 40px;
-  border: solid 1px black;
+  border: solid 0px black;
   margin-top: 20px;
 }
 
 #content {
   clear: both;
   padding-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
